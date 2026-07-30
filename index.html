@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OMII'S EMPIRE — Global Import &amp; Export of Fruits &amp; Agricultural Products</title>
+<meta name="description" content="OMII'S EMPIRE exports premium Indian fruits and agricultural products to trusted partners across the Middle East, Europe, Asia and North America.">
+<meta name="keywords" content="fruit exporter India, agricultural export company, import export India, OMII'S EMPIRE">
+<meta property="og:type" content="website">
+<meta property="og:title" content="OMII'S EMPIRE — Global Import &amp; Export">
+<meta property="og:description" content="Premium Indian fruits and agricultural products, exported worldwide with quality and care.">
+<meta property="og:site_name" content="OMII'S EMPIRE">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "OMII'S EMPIRE",
+  "description": "Import and export company specializing in fresh fruits, processed fruits and agricultural products, connecting Indian producers with global markets.",
+  "email": "omisempire49@gmail.com",
+  "telephone": "+91-8446660849",
+  "address": {"@type":"PostalAddress","addressLocality":"Virbhadra, Rishikesh","addressRegion":"Uttarakhand","addressCountry":"IN"}
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#FFFFFF;
+  --primary:#0B3D2E;
+  --primary-deep:#082a20;
+  --accent:#C8A34D;
+  --text:#111111;
+  --text-soft:#5b5b5b;
+  --ease:cubic-bezier(.22,.68,0,1);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Inter',sans-serif;
+  font-weight:300;
+  color:var(--text);
+  background:var(--bg);
+  overflow-x:hidden;
+  line-height:1.7;
+  font-size:16px;
+}
+h1,h2,h3{font-family:'Playfair Display',serif;color:var(--primary);font-weight:500;letter-spacing:-0.01em;}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+button{font-family:'Poppins',sans-serif;border:none;background:none;cursor:pointer;}
+.wrap{max-width:1360px;margin:0 auto;padding:0 56px;}
+@media(max-width:768px){.wrap{padding:0 24px;}}
+
+/* ---- manifest numbering signature ---- */
+.mark{
+  display:flex;align-items:center;gap:18px;margin-bottom:46px;
+}
+.mark .no{font-family:'Playfair Display',serif;font-style:italic;font-size:15px;color:var(--accent);}
+.mark .rule{width:64px;height:1px;background:var(--accent);}
+.mark .lbl{font-family:'Poppins',sans-serif;font-size:11.5px;letter-spacing:0.32em;text-transform:uppercase;color:var(--text-soft);}
+
+.section{position:relative;padding:170px 0;}
+@media(max-width:900px){.section{padding:110px 0;}}
+
+/* ---- reveal ---- */
+.r{opacity:0;transform:translateY(46px);transition:opacity 1.1s var(--ease),transform 1.1s var(--ease);}
+.r.in{opacity:1;transform:translateY(0);}
+.r-l{transform:translateX(-60px);}
+.r-l.in{transform:translateX(0);}
+.r-r{transform:translateX(60px);}
+.r-r.in{transform:translateX(0);}
+
+/* =============== NAV =============== */
+.nav{
+  position:fixed;top:0;left:0;width:100%;z-index:1000;
+  padding:38px 0;transition:all .6s var(--ease);
+}
+.nav.on{padding:22px 0;background:rgba(255,255,255,0.96);box-shadow:0 1px 0 rgba(11,61,46,0.08);}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;}
+.brand{font-family:'Playfair Display',serif;font-size:20px;letter-spacing:0.04em;color:#fff;transition:color .5s;}
+.brand b{font-weight:500;color:var(--accent);}
+.nav.on .brand{color:var(--primary);}
+.nlinks{display:flex;gap:48px;font-family:'Poppins',sans-serif;font-size:12.5px;letter-spacing:0.14em;text-transform:uppercase;}
+.nlinks a{color:#fff;position:relative;padding-bottom:4px;transition:color .4s;}
+.nav.on .nlinks a{color:var(--text);}
+.nlinks a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--accent);transition:width .4s var(--ease);}
+.nlinks a:hover::after{width:100%;}
+.burger{display:none;flex-direction:column;gap:6px;width:26px;z-index:1200;cursor:pointer;}
+.burger span{height:1px;background:#fff;transition:all .4s;}
+.nav.on .burger span,.burger.x span{background:var(--primary);}
+@media(max-width:880px){.nlinks{display:none;}.burger{display:flex;}}
+
+.mmenu{position:fixed;inset:0;background:var(--primary);z-index:1100;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px;opacity:0;pointer-events:none;transition:opacity .5s;}
+.mmenu.on{opacity:1;pointer-events:all;}
+.mmenu a{font-family:'Playfair Display',serif;font-size:28px;color:#fff;}
+.mmenu a:hover{color:var(--accent);}
+
+/* =============== HERO =============== */
+.hero{height:100vh;min-height:640px;position:relative;display:flex;align-items:flex-end;color:#fff;}
+.hero-img{position:absolute;inset:0;overflow:hidden;}
+.hero-img img{width:100%;height:100%;object-fit:cover;transform:scale(1.08);}
+.hero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,42,32,0.42) 0%, rgba(8,42,32,0.18) 40%, rgba(8,42,32,0.72) 100%);}
+.hero-content{position:relative;z-index:2;padding-bottom:110px;width:100%;}
+.hero-tag{font-family:'Poppins',sans-serif;font-size:12px;letter-spacing:0.34em;text-transform:uppercase;color:var(--accent);margin-bottom:26px;}
+.hero h1{font-size:clamp(42px,7vw,98px);color:#fff;font-weight:500;max-width:940px;line-height:1.06;}
+.hero h1 em{font-style:italic;font-weight:400;color:rgba(255,255,255,0.88);}
+.hero-foot{display:flex;justify-content:space-between;align-items:flex-end;margin-top:56px;flex-wrap:wrap;gap:30px;}
+.hero-foot p{max-width:380px;font-size:15px;color:rgba(255,255,255,0.75);font-weight:300;}
+.hero-cta{display:inline-flex;align-items:center;gap:14px;font-family:'Poppins',sans-serif;font-size:12.5px;letter-spacing:0.14em;text-transform:uppercase;color:#fff;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.4);transition:all .4s;}
+.hero-cta:hover{border-color:var(--accent);color:var(--accent);gap:20px;}
+.scrolldown{position:absolute;right:56px;top:50%;transform:translateY(-50%) rotate(90deg);transform-origin:right center;z-index:2;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:0.3em;text-transform:uppercase;color:rgba(255,255,255,0.7);}
+@media(max-width:880px){.scrolldown{display:none;}}
+
+/* =============== ABOUT =============== */
+.about{
+    display:grid;
+    grid-template-columns:0.9fr 1fr;
+    gap:80px;
+    align-items:center;
+}
+
+.about-img{
+    position:relative;
+    overflow:hidden;
+    border-radius:20px;
+    aspect-ratio:4/5;
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+}
+
+.about-img img{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    object-position:center;
+    transition:transform .8s ease;
+}
+
+.about-img:hover img{
+    transform:scale(1.04);
+}
+
+.about-img::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        to top,
+        rgba(11,61,46,.12),
+        transparent 45%
+    );
+    pointer-events:none;
+}
+
+.about-copy{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-right:20px;
+}
+
+@media(max-width:1150px){
+
+    .about{
+        grid-template-columns:1fr;
+        gap:50px;
+    }
+
+    .about-img{
+        aspect-ratio:16/10;
+    }
+
+    .about-copy{
+        padding:0;
+    }
+
+}
+.about-copy h2{font-size:clamp(30px,3.6vw,46px);margin-bottom:34px;max-width:500px;}
+.about-quote{font-family:'Playfair Display',serif;font-style:italic;font-size:21px;color:var(--primary);max-width:420px;line-height:1.5;margin-bottom:34px;}
+.about-copy p.body{font-size:16px;color:var(--text-soft);max-width:440px;margin-bottom:20px;}
+.about-sign{margin-top:20px;display:flex;align-items:center;gap:18px;}
+.about-sign .ln{width:44px;height:1px;background:var(--accent);}
+.about-sign span{font-family:'Poppins',sans-serif;font-size:11.5px;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-soft);}
+
+/* interlude panorama */
+.panorama{position:relative;height:64vh;min-height:420px;overflow:hidden;}
+.panorama img{width:100%;height:100%;object-fit:cover;}
+.panorama::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,42,32,0.7),rgba(8,42,32,0.08) 60%);}
+.panorama-copy{position:absolute;left:56px;bottom:56px;z-index:2;max-width:520px;color:#fff;}
+.panorama-copy p.eyebrow-i{font-family:'Poppins',sans-serif;font-size:11.5px;letter-spacing:0.3em;text-transform:uppercase;color:var(--accent);margin-bottom:18px;}
+.panorama-copy h3{color:#fff;font-size:clamp(24px,2.8vw,34px);font-weight:400;line-height:1.35;}
+@media(max-width:768px){.panorama-copy{left:24px;right:24px;bottom:40px;}}
+
+/* =============== PRODUCTS =============== */
+.prod-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:70px;gap:40px;flex-wrap:wrap;}
+.prod-head h2{font-size:clamp(30px,3.6vw,46px);max-width:520px;}
+.prod-head p{max-width:360px;color:var(--text-soft);font-size:15.5px;}
+
+.pgrid{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:190px;gap:26px;}
+.ptile{position:relative;overflow:hidden;grid-column:span 3;grid-row:span 2;}
+.ptile img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;transition:transform 1.6s var(--ease);}
+.ptile:hover img{transform:scale(1.08);}
+.ptile .pshade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,42,32,0) 45%,rgba(8,42,32,0.85) 100%);}
+.ptile .pcopy{position:absolute;left:30px;right:30px;bottom:26px;color:#fff;}
+.ptile .pcopy .pno{font-family:'Playfair Display',serif;font-style:italic;font-size:13px;color:var(--accent);display:block;margin-bottom:8px;}
+.ptile .pcopy h4{color:#fff;font-size:22px;font-weight:500;margin-bottom:8px;}
+.ptile .pcopy p{font-size:13.5px;color:rgba(255,255,255,0.78);max-width:320px;font-weight:300;}
+
+.p-feature{grid-column:span 3;grid-row:span 4;}
+.p-a{grid-column:span 3;grid-row:span 2;}
+.p-b{grid-column:span 2;grid-row:span 2;}
+.p-c{grid-column:span 2;grid-row:span 2;}
+.p-d{grid-column:span 2;grid-row:span 2;}
+
+@media(max-width:900px){
+  .pgrid{grid-template-columns:1fr;grid-auto-rows:340px;}
+  .p-feature,.p-a,.p-b,.p-c,.p-d{grid-column:span 1;grid-row:span 1;}
+}
+
+.prod-note{margin-top:56px;font-size:15px;color:var(--text-soft);max-width:640px;}
+.prod-note em{font-style:italic;color:var(--primary);}
+
+/* =============== PROCESS =============== */
+.process-intro{max-width:560px;margin-bottom:100px;}
+.process-intro h2{font-size:clamp(30px,3.6vw,46px);margin-bottom:24px;}
+.process-intro p{color:var(--text-soft);font-size:15.5px;}
+
+.ptrack{position:relative;}
+.pline{position:absolute;top:64px;left:0;right:0;height:1px;background:rgba(11,61,46,0.18);}
+.psteps{display:grid;grid-template-columns:repeat(6,1fr);gap:24px;position:relative;}
+.pstep{position:relative;padding-top:14px;}
+.pstep:nth-child(even){margin-top:78px;}
+.pstep .dot{width:9px;height:9px;border-radius:50%;background:var(--accent);position:absolute;top:60px;left:0;transition:transform .5s var(--ease);}
+.pstep:hover .dot{transform:scale(1.8);}
+.pstep .pnum{font-family:'Playfair Display',serif;font-style:italic;color:var(--accent);font-size:15px;display:block;margin-bottom:96px;}
+.pstep:nth-child(even) .pnum{margin-bottom:0;order:2;}
+.pstep h4{font-size:17px;margin-bottom:12px;margin-top:26px;}
+.pstep p{font-size:14px;color:var(--text-soft);max-width:190px;}
+
+@media(max-width:980px){
+  .pline{display:none;}
+  .psteps{grid-template-columns:1fr;gap:56px;}
+  .pstep:nth-child(even){margin-top:0;}
+  .pstep .dot{display:none;}
+  .pstep .pnum{margin-bottom:14px;}
+  .pstep h4{margin-top:0;}
+  .pstep p{max-width:100%;}
+}
+
+/* =============== CONTACT =============== */
+.contact{display:grid;grid-template-columns:0.9fr 1.1fr;background:var(--bg);}
+.c-info{background:var(--primary);color:#fff;padding:130px 90px;display:flex;flex-direction:column;justify-content:center;}
+.c-info .mark .lbl{color:rgba(255,255,255,0.6);}
+.c-info h2{color:#fff;font-size:clamp(30px,3.4vw,44px);margin-bottom:30px;max-width:420px;}
+.c-info p.lead{color:rgba(255,255,255,0.68);font-size:15.5px;max-width:380px;margin-bottom:56px;}
+.c-line{display:flex;flex-direction:column;gap:6px;padding:22px 0;border-top:1px solid rgba(255,255,255,0.14);}
+.c-line:last-of-type{border-bottom:1px solid rgba(255,255,255,0.14);}
+.c-line span.lb{font-family:'Poppins',sans-serif;font-size:10.5px;letter-spacing:0.22em;text-transform:uppercase;color:var(--accent);}
+.c-line span.vl{font-size:16.5px;color:#fff;}
+.c-social{display:flex;gap:26px;margin-top:44px;font-family:'Poppins',sans-serif;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;}
+.c-social a{color:rgba(255,255,255,0.65);border-bottom:1px solid transparent;padding-bottom:3px;transition:all .4s;}
+.c-social a:hover{color:var(--accent);border-color:var(--accent);}
+
+.c-form{padding:130px 90px;display:flex;flex-direction:column;justify-content:center;}
+.c-form h3{font-size:clamp(24px,2.6vw,30px);margin-bottom:14px;}
+.c-form>p{color:var(--text-soft);font-size:14.5px;margin-bottom:48px;max-width:420px;}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-bottom:34px;}
+.fgroup{position:relative;}
+.fgroup.full{grid-column:1/-1;}
+.fgroup label{display:block;font-family:'Poppins',sans-serif;font-size:10.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--text-soft);margin-bottom:10px;}
+.fgroup input,.fgroup select,.fgroup textarea{
+  width:100%;border:none;border-bottom:1px solid rgba(11,61,46,0.22);background:transparent;
+  padding:8px 2px 12px;font-family:'Inter',sans-serif;font-size:15.5px;color:var(--text);transition:border-color .4s;
+}
+.fgroup select{appearance:none;-webkit-appearance:none;cursor:pointer;}
+.fgroup textarea{resize:none;min-height:56px;}
+.fgroup input:focus,.fgroup select:focus,.fgroup textarea:focus{outline:none;border-color:var(--accent);}
+.fgroup input::placeholder,.fgroup textarea::placeholder{color:#b9b9b9;font-weight:300;}
+
+.submit{
+  display:inline-flex;align-items:center;gap:16px;margin-top:16px;
+  font-family:'Poppins',sans-serif;font-size:12.5px;letter-spacing:0.18em;text-transform:uppercase;
+  color:var(--primary);border-bottom:1px solid var(--primary);padding-bottom:9px;transition:all .45s var(--ease);align-self:flex-start;
+}
+.submit:hover{color:var(--accent);border-color:var(--accent);gap:24px;}
+
+@media(max-width:1050px){
+  .contact{grid-template-columns:1fr;}
+  .c-info,.c-form{padding:90px 40px;}
+}
+@media(max-width:560px){
+  .frow{grid-template-columns:1fr;gap:26px;}
+  .c-info,.c-form{padding:70px 24px;}
+}
+
+/* =============== FOOTER =============== */
+footer{padding:56px 0;border-top:1px solid rgba(11,61,46,0.1);}
+.f-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;}
+.f-row .brand{color:var(--primary);font-size:17px;}
+.f-links{display:flex;gap:34px;font-family:'Poppins',sans-serif;font-size:11.5px;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-soft);}
+.f-links a:hover{color:var(--primary);}
+.f-copy{font-size:12.5px;color:#9a9a9a;}
+@media(max-width:768px){.f-row{flex-direction:column;text-align:center;}}
+
+/* whatsapp float — understated */
+.wa{
+  position:fixed;bottom:34px;right:34px;z-index:900;
+  width:54px;height:54px;border-radius:50%;background:var(--primary);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-size:22px;
+  box-shadow:0 12px 30px rgba(11,61,46,0.32);transition:all .4s;
+}
+.wa:hover{background:var(--accent);color:var(--primary-deep);transform:translateY(-4px);}
+
+::selection{background:var(--accent);color:#fff;}
+</style>
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a href="#home" class="brand">OMII'S <b>EMPIRE</b></a>
+    <div class="nlinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="burger" id="burger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+<div class="mmenu" id="mmenu">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#products">Products</a>
+  <a href="#process">Process</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="home">
+  <div class="hero-img">
+    <img src="bg image.png" alt="Cargo ship carrying containers across the ocean" loading="eager">
+  </div>
+  <div class="wrap hero-content">
+    <p class="hero-tag">Import · Export · Since Uttarakhand, India</p>
+    <h1>Global trade,<br><em>rooted in India.</em></h1>
+    <div class="hero-foot">
+      <p>OMII'S EMPIRE exports premium Indian fruits and agricultural products to trusted partners across the world.</p>
+      <a href="#contact" class="hero-cta">Start a Conversation →</a>
+    </div>
+  </div>
+  <div class="scrolldown">Scroll</div>
+</header>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="about">
+      <div class="about-img r-l">
+        <img src="about.png" alt="Indian farmland producing export-quality fruit">
+      </div>
+      <div class="about-copy r-r">
+        <div class="mark"><span class="no">01</span><span class="rule"></span><span class="lbl">About Us</span></div>
+        <h2>An emerging house of trust in India's agricultural export trade.</h2>
+        <p class="about-quote">"Our goal is to connect Indian producers with global markets — with quality, reliability and profitability at the centre of everything we do."</p>
+        <p class="body">OMII'S EMPIRE specialises in fresh fruits, processed fruits and agricultural products, working closely with farmers across India to bring premium produce to international buyers.</p>
+        <p class="body">From the farm gate to the world's ports, every shipment reflects the same commitment — to quality that meets international standards, and partnerships built to last.</p>
+        <div class="about-sign"><div class="ln"></div><span>Building a healthier world, together</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- interlude panorama -->
+<div class="panorama r">
+  <img src="process.png" alt="Port cranes loading cargo containers">
+  <div class="panorama-copy">
+    <p class="eyebrow-i">From Farm to Port</p>
+    <h3>Every shipment carries the same promise — quality, on time, every time.</h3>
+  </div>
+</div>
+
+<!-- ================= PRODUCTS ================= -->
+<section class="section" id="products">
+  <div class="wrap">
+    <div class="mark"><span class="no">02</span><span class="rule"></span><span class="lbl">What We Export</span></div>
+    <div class="prod-head">
+      <h2>A curated range of premium produce, sourced from the best farms across India.</h2>
+      <p>Handled under strict quality checks, from harvest to hold, ready for markets across the Middle East, Europe, Asia and North America.</p>
+    </div>
+
+    <div class="pgrid">
+      <div class="ptile p-feature">
+        <img src="fresh fruits.png" alt="Fresh mangoes and seasonal fruit">
+        <div class="pshade"></div>
+        <div class="pcopy"><span class="pno">01</span><h4>Fresh Fruits</h4><p>Apples, grapes, pomegranates, mangoes, bananas &amp; citrus fruits, hand-selected at peak freshness.</p></div>
+      </div>
+      <div class="ptile p-a">
+        <img src="processed fruits.png" alt="Processed and dehydrated fruit">
+        <div class="pshade"></div>
+        <div class="pcopy"><span class="pno">02</span><h4>Processed Fruits</h4><p>Dehydrated fruits, pulp and juices, prepared for long-distance, cold-chain export.</p></div>
+      </div>
+      <div class="ptile p-b">
+        <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80" alt="Fresh vegetables">
+        <div class="pshade"></div>
+        <div class="pcopy"><span class="pno">03</span><h4>Vegetables</h4><p>Farm-fresh, packed under hygienic export-standard conditions.</p></div>
+      </div>
+      <div class="ptile p-c">
+        <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=700&q=80" alt="Indian spices">
+        <div class="pshade"></div>
+        <div class="pcopy"><span class="pno">04</span><h4>Spices &amp; Pulses</h4><p>Aromatic, authentic Indian spices, graded to international standards.</p></div>
+      </div>
+      <div class="ptile p-d">
+        <img src="dry fruits.png" alt="Premium dry fruits">
+        <div class="pshade"></div>
+        <div class="pcopy"><span class="pno">05</span><h4>Dry Fruits</h4><p>Carefully cleaned and graded for retail and bulk buyers alike.</p></div>
+      </div>
+    </div>
+
+    <p class="prod-note r">Beyond these categories, our sourcing network extends across a wider basket of <em>Indian agricultural products</em> — available on enquiry.</p>
+  </div>
+</section>
+
+<!-- ================= PROCESS ================= -->
+<section class="section" id="process" style="padding-top:120px;">
+  <div class="wrap">
+    <div class="mark"><span class="no">03</span><span class="rule"></span><span class="lbl">Our Process</span></div>
+    <div class="process-intro r">
+      <h2>Our process. Your assurance.</h2>
+      <p>A transparent, efficient process that ensures every product meets international standards and exceeds customer expectations.</p>
+    </div>
+
+    <div class="ptrack r">
+      <div class="pline"></div>
+      <div class="psteps">
+        <div class="pstep"><span class="pnum">01</span><div class="dot"></div><h4>Sourcing</h4><p>The finest fruits &amp; agricultural products, from trusted farmers.</p></div>
+        <div class="pstep"><span class="pnum">02</span><div class="dot"></div><h4>Quality Check</h4><p>Strict inspections at multiple levels to ensure the best.</p></div>
+        <div class="pstep"><span class="pnum">03</span><div class="dot"></div><h4>Packaging</h4><p>Hygienic, export-standard packaging that preserves freshness.</p></div>
+        <div class="pstep"><span class="pnum">04</span><div class="dot"></div><h4>Transportation</h4><p>Efficient logistics and timely shipment, through reliable partners.</p></div>
+        <div class="pstep"><span class="pnum">05</span><div class="dot"></div><h4>Customs Clearance</h4><p>Smooth documentation, compliant with global export regulations.</p></div>
+        <div class="pstep"><span class="pnum">06</span><div class="dot"></div><h4>Global Delivery</h4><p>Safe, on-time delivery to your destination, worldwide.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+  <div class="contact">
+    <div class="c-info r-l">
+      <div class="mark"><span class="no">04</span><span class="rule"></span><span class="lbl">Get In Touch</span></div>
+      <h2>Let's grow. Let's succeed. Together.</h2>
+      <p class="lead">We're excited about the journey ahead, and the opportunity to build a healthier world together. Reach out to enquire about our products or explore a partnership.</p>
+
+      <div class="c-line"><span class="lb">Phone / WhatsApp</span><span class="vl">+91 84466 60849</span></div>
+      <div class="c-line"><span class="lb">Email</span><span class="vl">omisempire49@gmail.com</span></div>
+      <div class="c-line"><span class="lb">Location</span><span class="vl">Virbhadra, Rishikesh, Uttarakhand, India</span></div>
+      <div class="c-line"><span class="lb">Business Hours</span><span class="vl">Mon – Sat, 9:00 AM – 7:00 PM IST</span></div>
+
+      <div class="c-social">
+        <a href="https://wa.me/918446660849" target="_blank">WhatsApp</a>
+        <a href="mailto:omisempire49@gmail.com">Email</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="c-form r-r">
+      <h3>Send an enquiry</h3>
+      <p>Fill in the details below — it opens directly in WhatsApp so we can respond quickly.</p>
+      <form id="enquiryForm">
+        <div class="frow">
+          <div class="fgroup"><label>Full Name *</label><input type="text" id="f-name" required placeholder="Your name"></div>
+          <div class="fgroup"><label>Company Name</label><input type="text" id="f-company" placeholder="Your company"></div>
+        </div>
+        <div class="frow">
+          <div class="fgroup"><label>Country *</label><input type="text" id="f-country" required placeholder="Your country"></div>
+          <div class="fgroup"><label>Email *</label><input type="email" id="f-email" required placeholder="you@company.com"></div>
+        </div>
+        <div class="frow">
+          <div class="fgroup"><label>Phone Number *</label><input type="tel" id="f-phone" required placeholder="+1 234 567 890"></div>
+          <div class="fgroup">
+            <label>Product Interested In *</label>
+            <select id="f-product" required>
+              <option value="">Select a product</option>
+              <option>Fresh Fruits</option>
+              <option>Processed Fruits</option>
+              <option>Vegetables</option>
+              <option>Spices &amp; Pulses</option>
+              <option>Dry Fruits</option>
+              <option>Agricultural Products</option>
+            </select>
+          </div>
+        </div>
+        <div class="frow">
+          <div class="fgroup full"><label>Message</label><textarea id="f-message" placeholder="Tell us about your requirement..."></textarea></div>
+        </div>
+        <button type="submit" class="submit">Send via WhatsApp →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap f-row">
+    <a href="#home" class="brand">OMII'S <b>EMPIRE</b></a>
+    <div class="f-links">
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p class="f-copy">© 2026 OMII'S EMPIRE. All rights reserved.</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/918446660849" target="_blank" class="wa" aria-label="Chat on WhatsApp">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.28-1.38a9.9 9.9 0 0 0 4.76 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.13c-.24.68-1.2 1.25-1.96 1.4-.53.11-1.21.2-3.52-.75-2.96-1.22-4.86-4.23-5.01-4.43-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.16 1.03-2.46.27-.3.59-.37.79-.37.2 0 .4 0 .57.01.18.01.43-.07.67.51.24.6.83 2.06.9 2.21.07.15.12.33.02.53-.09.2-.14.32-.28.5-.14.18-.29.4-.42.53-.14.14-.28.29-.12.57.16.28.71 1.17 1.53 1.9 1.05.94 1.93 1.23 2.21 1.37.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.18-.27.36-.22.6-.13.24.09 1.53.72 1.79.85.26.13.44.2.5.31.06.12.06.68-.18 1.36z"/></svg>
+</a>
+
+<script>
+/* nav scroll state */
+const nav=document.getElementById('nav');
+window.addEventListener('scroll',()=>nav.classList.toggle('on',window.scrollY>40));
+
+/* mobile menu */
+const burger=document.getElementById('burger');
+const mmenu=document.getElementById('mmenu');
+burger.addEventListener('click',()=>{burger.classList.toggle('x');mmenu.classList.toggle('on');});
+document.querySelectorAll('.mmenu a').forEach(a=>a.addEventListener('click',()=>{burger.classList.remove('x');mmenu.classList.remove('on');}));
+
+/* scroll reveal */
+const io=new IntersectionObserver((es)=>{
+  es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+},{threshold:0.16});
+document.querySelectorAll('.r,.r-l,.r-r').forEach(el=>io.observe(el));
+
+/* hero parallax */
+const heroImg=document.querySelector('.hero-img img');
+window.addEventListener('scroll',()=>{
+  const y=window.scrollY;
+  if(y<window.innerHeight) heroImg.style.transform=`scale(1.08) translateY(${y*0.12}px)`;
+});
+
+/* whatsapp enquiry form */
+document.getElementById('enquiryForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  const name=document.getElementById('f-name').value.trim();
+  const company=document.getElementById('f-company').value.trim();
+  const country=document.getElementById('f-country').value.trim();
+  const email=document.getElementById('f-email').value.trim();
+  const phone=document.getElementById('f-phone').value.trim();
+  const product=document.getElementById('f-product').value.trim();
+  const message=document.getElementById('f-message').value.trim();
+
+  const text=`Hello OMII'S EMPIRE,
+
+I would like to enquire about your import/export products.
+
+Name: ${name}
+Company: ${company}
+Country: ${country}
+Email: ${email}
+Phone: ${phone}
+Interested Product: ${product}
+Message: ${message}
+
+Please contact me.`;
+
+  window.open(`https://wa.me/918446660849?text=${encodeURIComponent(text)}`,'_blank');
+});
+</script>
+</body>
+</html>
