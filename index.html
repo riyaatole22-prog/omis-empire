@@ -19,7 +19,7 @@
   "description": "Import and export company specializing in fresh fruits, processed fruits and agricultural products, connecting Indian producers with global markets.",
   "email": "omisempire49@gmail.com",
   "telephone": "+91-8446660849",
-  "address": {"@type":"PostalAddress","addressLocality":"Virbhadra, Rishikesh","addressRegion":"Uttarakhand","addressCountry":"IN"}
+  "address": {"@type":"PostalAddress","addressLocality":"Pune","addressRegion":"Maharashtra","addressCountry":"IN"}
 }
 </script>
 
@@ -48,12 +48,39 @@ body{
   line-height:1.7;
   font-size:16px;
 }
-h1,h2,h3{font-family:'Playfair Display',serif;color:var(--primary);font-weight:500;letter-spacing:-0.01em;}
+h1,h2,h3{font-family:'Playfair Display',serif;color:var(--primary);font-weight:700;letter-spacing:-0.01em;}
 a{color:inherit;text-decoration:none;}
 img{max-width:100%;display:block;}
 button{font-family:'Poppins',sans-serif;border:none;background:none;cursor:pointer;}
 .wrap{max-width:1360px;margin:0 auto;padding:0 56px;}
 @media(max-width:768px){.wrap{padding:0 24px;}}
+/* Bigger and bolder headings */
+h1,h2,h3{
+  font-weight:700;
+}
+
+.hero h1{
+  font-size:clamp(50px,7.5vw,105px);
+  font-weight:700;
+}
+
+.about-copy h2,
+.prod-head h2,
+.process-intro h2,
+.c-info h2{
+  font-size:clamp(36px,4vw,52px);
+  font-weight:700;
+}
+
+.c-form h3{
+  font-size:clamp(28px,3vw,36px);
+  font-weight:700;
+}
+
+.ptile .pcopy h4,
+.pstep h4{
+  font-weight:700;
+}
 
 /* ---- manifest numbering signature ---- */
 .mark{
@@ -61,7 +88,14 @@ button{font-family:'Poppins',sans-serif;border:none;background:none;cursor:point
 }
 .mark .no{font-family:'Playfair Display',serif;font-style:italic;font-size:15px;color:var(--accent);}
 .mark .rule{width:64px;height:1px;background:var(--accent);}
-.mark .lbl{font-family:'Poppins',sans-serif;font-size:11.5px;letter-spacing:0.32em;text-transform:uppercase;color:var(--text-soft);}
+.mark .lbl{
+  font-family:'Poppins',sans-serif;
+  font-size:17px;
+  font-weight:700;
+  letter-spacing:0.18em;
+  text-transform:uppercase;
+  color:var(--text-soft);
+}
 
 .section{position:relative;padding:170px 0;}
 @media(max-width:900px){.section{padding:110px 0;}}
@@ -348,7 +382,7 @@ footer{padding:56px 0;border-top:1px solid rgba(11,61,46,0.1);}
     <img src="bg image.png" alt="Cargo ship carrying containers across the ocean" loading="eager">
   </div>
   <div class="wrap hero-content">
-    <p class="hero-tag">Import · Export · Since Uttarakhand, India</p>
+    <p class="hero-tag">Import · Export · Since Pune, India</p>
     <h1>Global trade,<br><em>rooted in India.</em></h1>
     <div class="hero-foot">
       <p>OMII'S EMPIRE exports premium Indian fruits and agricultural products to trusted partners across the world.</p>
@@ -366,7 +400,7 @@ footer{padding:56px 0;border-top:1px solid rgba(11,61,46,0.1);}
         <img src="about.png" alt="Indian farmland producing export-quality fruit">
       </div>
       <div class="about-copy r-r">
-        <div class="mark"><span class="no">01</span><span class="rule"></span><span class="lbl">About Us</span></div>
+        <div class="mark"><span class="no"></span><span class="rule"></span><span class="lbl">About Us</span></div>
         <h2>An emerging house of trust in India's agricultural export trade.</h2>
         <p class="about-quote">"Our goal is to connect Indian producers with global markets — with quality, reliability and profitability at the centre of everything we do."</p>
         <p class="body">OMII'S EMPIRE specialises in fresh fruits, processed fruits and agricultural products, working closely with farmers across India to bring premium produce to international buyers.</p>
@@ -389,7 +423,7 @@ footer{padding:56px 0;border-top:1px solid rgba(11,61,46,0.1);}
 <!-- ================= PRODUCTS ================= -->
 <section class="section" id="products">
   <div class="wrap">
-    <div class="mark"><span class="no">02</span><span class="rule"></span><span class="lbl">What We Export</span></div>
+    <div class="mark"><span class="no"></span><span class="rule"></span><span class="lbl">What We Export</span></div>
     <div class="prod-head">
       <h2>A curated range of premium produce, sourced from the best farms across India.</h2>
       <p>Handled under strict quality checks, from harvest to hold, ready for markets across the Middle East, Europe, Asia and North America.</p>
@@ -430,7 +464,7 @@ footer{padding:56px 0;border-top:1px solid rgba(11,61,46,0.1);}
 <!-- ================= PROCESS ================= -->
 <section class="section" id="process" style="padding-top:120px;">
   <div class="wrap">
-    <div class="mark"><span class="no">03</span><span class="rule"></span><span class="lbl">Our Process</span></div>
+    <div class="mark"><span class="no"></span><span class="rule"></span><span class="lbl">Our Process</span></div>
     <div class="process-intro r">
       <h2>Our process. Your assurance.</h2>
       <p>A transparent, efficient process that ensures every product meets international standards and exceeds customer expectations.</p>
@@ -454,13 +488,13 @@ footer{padding:56px 0;border-top:1px solid rgba(11,61,46,0.1);}
 <section id="contact">
   <div class="contact">
     <div class="c-info r-l">
-      <div class="mark"><span class="no">04</span><span class="rule"></span><span class="lbl">Get In Touch</span></div>
+      <div class="mark"><span class="no"></span><span class="rule"></span><span class="lbl">Get In Touch</span></div>
       <h2>Let's grow. Let's succeed. Together.</h2>
       <p class="lead">We're excited about the journey ahead, and the opportunity to build a healthier world together. Reach out to enquire about our products or explore a partnership.</p>
 
       <div class="c-line"><span class="lb">Phone / WhatsApp</span><span class="vl">+91 84466 60849</span></div>
       <div class="c-line"><span class="lb">Email</span><span class="vl">omisempire49@gmail.com</span></div>
-      <div class="c-line"><span class="lb">Location</span><span class="vl">Virbhadra, Rishikesh, Uttarakhand, India</span></div>
+      <div class="c-line"><span class="lb">Location</span><span class="vl">Pune,Maharashta,India</span></div>
       <div class="c-line"><span class="lb">Business Hours</span><span class="vl">Mon – Sat, 9:00 AM – 7:00 PM IST</span></div>
 
       <div class="c-social">
